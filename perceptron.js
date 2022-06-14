@@ -53,9 +53,6 @@ const perceptron = async () => {
 
             z = 0;
         }
-        // data.forEach(async sample => {
-            
-        // });             
     }
     const writeData = JSON.stringify(weightsVector);
     await fs.writeFile('weights.json', writeData);
